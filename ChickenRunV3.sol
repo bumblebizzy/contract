@@ -8,8 +8,7 @@ import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract ChickenRunV3 is ERC721Upgradeable {
-    // Royalty
+contract ChickenRunV3 is ERC721Upgradeable 
     address private _owner;
     address private _royaltiesAddr; // royality receiver
     uint256 public royaltyPercentage; // royalty based on sales price
